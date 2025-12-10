@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/payment-success",
+      "destination": "stylo60://(nav)/(orders)/order-placed",
+      "permanent": false
+    },
+    {
+      "source": "/payment-failed",
+      "destination": "stylo60://(nav)/(orders)/order-failed",
+      "permanent": false
+    }
+  ]
+}
